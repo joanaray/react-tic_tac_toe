@@ -137,6 +137,7 @@ main .content,
 }
 .game-board {
   flex-direction: column;
+  justify-content: flex-start;
 }
 #game-table {
   display: grid;
