@@ -2,7 +2,10 @@ const Header = () => {
   return (
     <>
       <header>
-        <h1>tic tac toe</h1>
+        <hgroup>
+          <h1>tic tac toe</h1>
+          <p>A React build</p>
+        </hgroup>
       </header>
     </>
   );
