@@ -175,6 +175,7 @@ function Square({ value, squareStatus, onSquareClick }) {
 function resetHistory(el) {
   el([Array(9).fill(null)]);
 }
+
 function calculateWinner(squares, winnerSquares) {
   const lines = [
     [0, 1, 2],
@@ -192,6 +193,8 @@ function calculateWinner(squares, winnerSquares) {
 
     if (squares[a] && squares[a] === squares[b] && squares[a] === squares[c]) {
       console.log("We have a winner! It's " + squares[a]);
+
+      // Highlight the winning squares
       winnerSquares[a] = "active";
       winnerSquares[b] = "active";
       winnerSquares[c] = "active";
@@ -203,6 +206,7 @@ function calculateWinner(squares, winnerSquares) {
           " " +
           winnerSquares[c]
       );
+      
       return [squares[a], winnerSquares[a], winnerSquares[b], winnerSquares[c]];
     }
   }
