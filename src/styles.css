@@ -57,7 +57,7 @@ h5 {
 h6 {
   font-size: 1.25rem;
 }
-p{
+p {
   font-size: 1rem;
 }
 .small {
@@ -111,8 +111,10 @@ button:focus-within {
   flex-direction: column;
   justify-content: center;
 }
-header, main, footer {
-  padding: 4rem;
+header,
+main,
+footer {
+  padding: 4rem 2rem;
 }
 header,
 footer {
@@ -157,7 +159,7 @@ main .content,
   background-color: transparent;
 }
 
-.game-over .square:not(.active){
+.game-over .square:not(.active) {
   background: none;
 }
 
@@ -204,4 +206,11 @@ main .content,
 }
 .game-plays li button:not(.active):active {
   color: var(--color-alt);
+}
+@media screen and (min-width: 800px) {
+  header,
+  main,
+  footer {
+    padding-inline: 4rem;
+  }
 }
