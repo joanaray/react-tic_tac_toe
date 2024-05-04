@@ -1,9 +1,7 @@
 # react-tic_tac_toe
- Tic Tac Toe [React]
+ React Tic Tac Toe - Demo here: [joana.cc/sandbox/react-tic-tac-toe/](http://joana.cc/sandbox/react-tic-tac-toe/)
  
- Demo here: http://joana.cc/sandbox/react-tic-tac-toe/
- 
- That first tutorial when one is learning React available here: https://react.dev/learn/tutorial-tic-tac-toe
+ That first tutorial when one is learning React [available here](https://react.dev/learn/tutorial-tic-tac-toe)
  
  Improved with the following features:
  - When someone wins, highlight the three squares that caused the win
